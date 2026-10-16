@@ -1,5 +1,5 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
-  - name: Rom-Hacking Hideout's Discord server!
-    url: https://discord.gg/6CzjAG6GZk
-    about: You can follow the development of pokeemerald-expansion and be notified of new releases :)
+  - name: pokeemerald-expansion upstream issues
+    url: https://github.com/rh-hideout/pokeemerald-expansion/issues
+    about: Bugs in the expansion itself (not fair-emerald changes) belong upstream.

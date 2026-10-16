@@ -1,0 +1,22 @@
+name: Feature / Change
+description: A change to how the game plays or what it contains.
+labels: ["type: feature"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should the player experience be, and why does it fit how the game should play?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Specifics — mechanics, affected maps/species/trainers, config flags, relevant files.
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: How you'll know it's finished (e.g. "verified in a playthrough up to Dewford").
+      placeholder: "- [ ] ..."

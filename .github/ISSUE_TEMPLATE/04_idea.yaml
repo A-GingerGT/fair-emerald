@@ -1,0 +1,10 @@
+name: Idea
+description: A loose idea to capture before it's forgotten. Refine it into a feature later.
+labels: ["type: idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+    validations:
+      required: true

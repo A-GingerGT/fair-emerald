@@ -1,0 +1,18 @@
+name: Balance tweak
+description: Adjust numbers — stats, levels, encounter rates, prices, rewards.
+labels: ["type: balance"]
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current
+      description: What it is now, and why it feels off.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed
+      description: What it should become.
+    validations:
+      required: true

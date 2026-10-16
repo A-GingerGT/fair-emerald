@@ -1,0 +1,27 @@
+name: Bug
+description: Something is broken, crashes, or behaves wrongly.
+labels: ["type: bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. ...
+  - type: input
+    id: version
+    attributes:
+      label: Commit / build
+      description: Commit hash or build the bug was seen on.
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots / save file / logs
